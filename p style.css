@@ -1,0 +1,132 @@
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+
+}
+.banner
+{
+	width: 100%;
+	height: 1200px;
+	background-image: linear-gradient(rgba(1, 5,2,0.25),rgba(1, 5, 2, 0.25)),url(background.jpg);
+	background-size: cover;
+	background-position: cover;
+
+}
+
+.navbar
+{
+	width: 85%;
+	margin: auto;
+	padding: 3px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo
+{
+	width: 110px;
+	padding-left: 20px;
+	padding-top: 10px;
+	cursor: pointer;	
+}
+	
+.navbar ul li 
+{
+	display: inline-block;
+	list-style: none;
+	margin: 0 20px;
+}
+.navbar ul li a 
+{
+	text-decoration: none;
+	color: Beige;
+
+}
+.a:hover
+{
+	background-color: darkgoldenrod;
+	overflow: hidden;
+	transition: .3s;
+}
+.products
+{
+	display: flex;
+	width: 10%;
+	justify-content: center;
+	align-items: center;
+	margin: 50px 0;
+
+}
+.container
+{
+	width: 20%;
+	margin: 5px;
+	display: flex;	text-align: center;
+	padding-top: 5%;
+
+
+}
+
+.products img
+{
+	width: 300px;
+	height: 400px;
+	text-align: center;
+	margin:0 auto;
+	display: block;
+	padding: 10%;
+	border-spacing: 10px;
+}
+
+.products p
+{
+	text-align: center;
+	color: floralwhite;
+	padding-top: 0 8px;
+}
+
+.products h3
+{
+	text-align: center;
+	color: mistyrose;
+}
+
+.product-cta {
+  background-color: saddlebrown;
+  color: Black;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 0px;
+
+}
+.button{
+	text-align: center;
+	font-size: 15px;
+	color: #fff;
+	width: 90%;
+	padding:15px;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+	margin-top: 5px;
+	border-bottom-right-radius: 15px ;
+	border-bottom-left-radius: 10px;
+	color: black;
+
+}
+.Buy-1{
+	background: #2183a2;
+}
+.Buy-2{
+	background: #2183a2;
+}
+.Buy-3{
+	background: #2183a2;
+}
+.Buy-4{
+	background: #2183a2;
